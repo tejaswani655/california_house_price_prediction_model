@@ -11,7 +11,7 @@ col = ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup']
 
 st.title('California Housing Price Prediction')
 
-st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fexploring-house-price-prediction-data-analysis-journey-raymond-ng&psig=AOvVaw2_oEvsyeUqMsl95ZkHMj75&ust=1756014381647000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMCCjL-doI8DFQAAAAAdAAAAABAE')
+st.image('https://miro.medium.com/1*tRupLU-m0fRDh4zbazNUew.gif')
 
 
 
@@ -75,3 +75,5 @@ if price>0:
 else:
     body = 'Invalid House features Values'
     st.warning(body)
+
+st.markdown('Designed and developed by: **Tejaswani Raj**')
