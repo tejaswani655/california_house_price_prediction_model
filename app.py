@@ -11,7 +11,7 @@ col = ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup']
 
 st.title('California Housing Price Prediction')
 
-st.image('https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/house-price-497112-KhCJQICS.jpg')
+st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fexploring-house-price-prediction-data-analysis-journey-raymond-ng&psig=AOvVaw2_oEvsyeUqMsl95ZkHMj75&ust=1756014381647000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMCCjL-doI8DFQAAAAAdAAAAABAE')
 
 
 
@@ -23,13 +23,15 @@ st.subheader('''User Must Enter Given values to predict Price:
 
 st.sidebar.title('Select House Features 🏠')
 
-st.sidebar.image('https://png.pngtree.com/thumb_back/fh260/background/20230804/pngtree-an-upside-graph-showing-prices-and-houses-in-the-market-image_13000262.jpg')
+st.sidebar.image('https://miro.medium.com/v2/resize:fit:1024/0*YMZOAO8QE4bZ4_Rk.jpg')
 
 
 # read_data
 temp_df = pd.read_csv('california.csv')
 
 random.seed(52)
+
+st.markdown('Designed by:**Tejaswani Raj**')
 
 all_values = []
 
